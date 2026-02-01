@@ -18,9 +18,6 @@ public class Order {
     }
 
     public String toString() {
-        return "Order ID: " + id
-                + ", Customer: " + customerName
-                + ", Building Type: " + building.getType()
-                + ", Price: " + getPrice();
+        return "Order ID: " + id + ", Customer: " + customerName + ", Building Type: " + building.getType() + ", Price: " + getPrice();
     }
 }

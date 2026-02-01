@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class OrderManager {
-
     private ArrayList<Order> orders = new ArrayList<Order>();
     private int nextId = 1;
 
