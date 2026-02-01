@@ -63,6 +63,8 @@ public class Main {
                     System.out.println(manager.getTotalProfit());
 
                 } else if (choice == 6) {
+                    System.out.println("Exiting...");
+                    break;
                 }
             }
         }
