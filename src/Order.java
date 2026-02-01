@@ -1,5 +1,4 @@
 public class Order {
-
     private int id;
     private String customerName;
     private Building building;
