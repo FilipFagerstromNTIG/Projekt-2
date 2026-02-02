@@ -41,7 +41,6 @@ public class Main {
                     manager.addOrder(name, b);
 
                     System.out.println("Villa order added for " + name);
-
                 } else if (choice == 2) {
                     System.out.print("Customer name: ");
                     String name = sc.nextLine();
@@ -50,18 +49,14 @@ public class Main {
                     manager.addOrder(name, b);
 
                     System.out.println("Garage order added for " + name);
-
                 } else if (choice == 3) {
                     System.out.print("ID: ");
                     int id = sc.nextInt();
                     manager.removeOrder(id);
-
                 } else if (choice == 4) {
                     manager.listOrders();
-
                 } else if (choice == 5) {
                     System.out.println(manager.getTotalProfit());
-
                 } else if (choice == 6) {
                     System.out.println("Exiting...");
                     break;
