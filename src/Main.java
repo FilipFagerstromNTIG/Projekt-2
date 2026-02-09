@@ -28,7 +28,7 @@ public class Main {
                     } catch (NumberFormatException e) {
                     }
 
-                    if (choice < 1 || choice > 6) {
+                    if (choice < 1 || choice > 6 || choiceString.isEmpty()) {
                         System.out.println("Error: not a valid input. Please enter a new number");
                     }
                 }
