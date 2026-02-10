@@ -29,7 +29,7 @@ public class Main {
                     }
 
                     if (choice < 1 || choice > 6 || choiceString.isEmpty()) {
-                        System.out.println("Error: not a valid input. Please enter a new number");
+                        System.out.println("Error: '"+choiceString+"' is not a valid input. Please enter a new and valid number between 1 and 6.");
                     }
                 }
 
